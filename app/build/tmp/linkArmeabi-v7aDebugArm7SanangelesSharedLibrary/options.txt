@@ -1,0 +1,17 @@
+-shared
+-Wl,-soname,libsanangeles.so
+-o
+C:\\Users\\Christian\\Desktop\\Practical\\SanAngeles\\app\\build\\intermediates\\binaries\\debug\\arm7\\obj\\armeabi-v7a\\libsanangeles.so
+C:\\Users\\Christian\\Desktop\\Practical\\SanAngeles\\app\\build\\intermediates\\objectFiles\\armeabi-v7aDebugArm7SanangelesSharedLibrary\\sanangelesMainC\\4mkdgkhqtp1i8j8iy3e5imfao\\importgl.o
+C:\\Users\\Christian\\Desktop\\Practical\\SanAngeles\\app\\build\\intermediates\\objectFiles\\armeabi-v7aDebugArm7SanangelesSharedLibrary\\sanangelesMainC\\9d33ltyzmjsgvf8n41emr2bow\\demo.o
+C:\\Users\\Christian\\Desktop\\Practical\\SanAngeles\\app\\build\\intermediates\\objectFiles\\armeabi-v7aDebugArm7SanangelesSharedLibrary\\sanangelesMainC\\dp94l9b5r0qxblaglsq9qd99t\\app-android.o
+-Wl,--no-undefined
+-Wl,-z,noexecstack
+-Wl,-z,relro
+-Wl,-z,now
+--sysroot=C:\\Users\\Christian\\AppData\\Local\\Android\\sdk2\\ndk-bundle/platforms/android-21/arch-arm
+-Wl,--build-id
+-no-canonical-prefixes
+-lGLESv1_CM
+-ldl
+-llog
